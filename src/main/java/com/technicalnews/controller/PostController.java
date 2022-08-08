@@ -1,11 +1,11 @@
 package com.technews.controller;
 
-import com.technews.model.Post;
-import com.technews.model.User;
-import com.technews.model.Vote;
-import com.technews.repository.PostRepository;
-import com.technews.repository.UserRepository;
-import com.technews.repository.VoteRepository;
+import com.technicalnews.model.Post;
+import com.technicalnews.model.User;
+import com.technicalnews.model.Vote;
+import com.technicalnews.repository.PostRepository;
+import com.technicalnews.repository.UserRepository;
+import com.technicalnews.repository.VoteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
